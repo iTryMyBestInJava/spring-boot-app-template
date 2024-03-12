@@ -1,4 +1,4 @@
-package ru.practicum.springbootapp;
+package ru.yandex.practicum.catsgram;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootTest
-class SpringBootAppTest {
+class CatsgramApplicationTests {
 
     @Autowired
     ApplicationContext applicationContext;
